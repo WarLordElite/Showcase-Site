@@ -16,6 +16,15 @@
 		background-color: black;
 	}
 	
+	#Links {
+		color: white;
+	    font-size: 30px; 
+	    height: auto;
+	    position: absolute;
+	    top: 23px;
+	    right: 150px;
+	}
+	
 	#Title {
 		width: 100%;
 		font-size: 30px;
@@ -24,12 +33,19 @@
 	}
 	
 	#Logo { 
-		max-width: auto;
 	    max-width: 300px; 
 	    height: auto;
 	    position: absolute;
 	    top: 10px;
 	    left: 25px; 
+	}
+	
+	#GHLogo { 
+	    max-width: 100px; 
+	    height: auto;
+	    position: absolute;
+	    top: 20px;
+	    right: 25px; 
 	}
 	
 	#Certs {
@@ -38,13 +54,10 @@
 		margin-left: 80%;
 		position: relative;
 		margin-top: 50px;
-		text-shadow: 5px;
 	}
 	
 	#Badge { 
-		max-width: auto;
 	    max-height: 50%;
-	    resize: auto;
 	    height: auto;
 	    margin-top: 6px;
 	    right: 60px; 
