@@ -1,0 +1,77 @@
+	html,body{margin:0; padding:0}
+	
+	body {	
+		overflow: auto;
+		padding-right: 1px;
+		background-color: grey;
+	}
+	
+	header {
+		height: 86px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		background-color: black;
+	}
+	
+	#Title {
+		width: 100%;
+		font-size: 30px;
+		color: white;
+		text-align: center;
+	}
+	
+	#Logo { 
+		max-width: 70px;
+	    max-width: 70px; 
+	    height: auto;
+	    position: absolute;
+	    top: 10px;
+	    left: 25px; 
+	}
+	
+	#Certs {
+		text-align: center;
+		display: inline-block;
+		margin-left: 80%;
+		position: relative;
+		margin-top: 50px;
+		text-shadow: 5px;
+	}
+	
+	#Badge { 
+		max-width: auto;
+	    max-height: 50%;
+	    resize: auto;
+	    height: auto;
+	    margin-top: 6px;
+	    right: 60px; 
+	}
+	
+	#Certs-txt {
+		position: absolute;
+	}
+	
+	h2 {
+		color: white;
+	}
+	
+	.Content {
+		color: white;
+	}
+
+
+	footer {
+		position: fixed;
+		bottom: 3px;
+		height: 15px;
+		margin-top: 40px;
+		text-align: center;
+		vertical-align: center;
+		width: 100%;
+		margin: auto;
+		color: ghostwhite;
+		font-size: 11px;
+		background-color: black;
+
+	}
