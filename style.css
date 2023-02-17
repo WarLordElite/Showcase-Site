@@ -1,9 +1,11 @@
 	html,body{margin:0; padding:0}
 	
 	body {	
+		font-family: serif;
 		overflow: auto;
 		padding-right: 1px;
 		background-color: grey;
+		background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	}
 	
 	header {
@@ -22,8 +24,8 @@
 	}
 	
 	#Logo { 
-		max-width: 70px;
-	    max-width: 70px; 
+		max-width: auto;
+	    max-width: 300px; 
 	    height: auto;
 	    position: absolute;
 	    top: 10px;
@@ -59,7 +61,12 @@
 	.Content {
 		color: white;
 	}
-
+	
+	#Intro {
+		position: relative;
+		top: 200px;
+		left: 50px;
+	}
 
 	footer {
 		position: fixed;
