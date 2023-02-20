@@ -22,7 +22,7 @@
 	    height: auto;
 	    position: absolute;
 	    top: 23px;
-	    right: 150px;
+	    right: 200px;
 	}
 	
 	#Title {
@@ -46,6 +46,14 @@
 	    position: absolute;
 	    top: 20px;
 	    right: 25px; 
+	}
+	
+	#Mastodon {
+		max-width: 30px; 
+	    height: auto;
+	    position: absolute;
+	    top: 25px;
+	    right: 150px;
 	}
 	
 	#Certs {
