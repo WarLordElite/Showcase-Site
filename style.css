@@ -1,9 +1,11 @@
-	html,body{margin:0; padding:0}
+	html,body {margin:0; padding:0}
 	
 	body {	
 		font-family: serif;
-		overflow: auto;
+		overflow-x: hidden;
+		overflow-y: auto;
 		padding-right: 1px;
+		margin: 0px;
 		background-color: grey;
 		background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	}
@@ -16,13 +18,42 @@
 		background-color: black;
 	}
 	
-	#Links {
+	#Menu {
+		list-style: none;
+		position: absolute;
+		top: 120px;
+	}
+	
+	#Menu a:link, a:visited {
+		text-decoration: none;
+		background-color: white;
+		border: 1px solid black;
+		color: black;
+		display: block;
+		width: 100px;
+		text-align: center;
+		margin-bottom: 1px;
+	}
+	
+	#Menu a:hover, a:active {
+		background-color: black;
+		color: white
+	}
+	
+	#Links-txt {
 		color: white;
 	    font-size: 30px; 
 	    height: auto;
 	    position: absolute;
 	    top: 23px;
 	    right: 200px;
+	}
+	
+	#Links {
+		display: block;
+		height: auto;
+		width: 100%;
+		padding-left: 500px;
 	}
 	
 	#Title {
@@ -59,23 +90,31 @@
 	#Certs {
 		text-align: center;
 		display: inline-block;
-		margin-left: 80%;
-		position: relative;
-		margin-top: 50px;
+		right: 5px;
+		position: fixed;
+		margin-top: 0px;
+		border: 1px solid white;
+		background-color: black;
+		box-shadow: 2px;
 	}
 	
-	#Badge { 
-	    max-height: 50%;
+	/* #Badge { 
+	    max-height: 40%;
 	    height: auto;
 	    margin-top: 6px;
-	    right: 60px; 
-	}
+	    right: 70px; 
+	} */
 	
 	#Certs-txt {
-		position: absolute;
+		font-size: 12px;
 	}
 	
 	h2 {
+		font-size: 20px;
+	}
+	
+	#Certs {
+		line-height: 1;
 		color: white;
 	}
 	
@@ -85,6 +124,7 @@
 	
 	#Intro {
 		position: relative;
+		padding-right: 325px;
 		top: 200px;
 		left: 50px;
 	}
