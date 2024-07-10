@@ -1,2 +1,2 @@
 # Showcase-Site
-WIP.
+WIP. Working to improve.
